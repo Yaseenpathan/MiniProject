@@ -1,0 +1,40 @@
+form{
+    background-color: darkturquoise;
+    background-position: 0%;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    text-decoration: solid;
+    font-display: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    @media Screen and  (min-width:320px){
+        body{
+            background-color: green;
+        }
+       }
+       @media Screen and (min-width:768px) and (max-width:1024px){
+        body{
+            background-color: blue;
+        }
+       }
+       @media Screen and (min-width:1224px){
+        body{
+            background-color: pink;
+        }
+       }
+       @media Screen and (min-width:1824px){
+        body{
+            background-color: rgb(102, 20, 33);
+        }
+   }
+   #resetPasswordButton:hover {
+    background-color: #d3d3d3;
+    cursor:pointer;
+   }
+   #resetPasswordButton:active {
+    background-color: #bbb;
+    font-size: medium;
+    font-display: 10px;
+   }
+}

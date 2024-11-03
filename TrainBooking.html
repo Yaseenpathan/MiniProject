@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title> Book Your Spot</title>
+        <link rel="stylesheet" href="TrainBooking.css">
+    </head>
+    <body>
+        <header>
+                <div class="form-container">
+                    <h2>Bus Booking</h2>
+                    <form id="TrainBookingForm">
+                        <label for="Departure">Departure:</label>
+                            <select id="Departure" name="Departure">
+                                <option value="">Select a city</option>
+                                <option value="Hyderanad">Hyderabad</option>
+                                <option value="Banglaore">Banglaore</option>
+                                <option value="Chennai">Chennai</option>
+                                <option value="kolkata">kolkata</option>
+                                <option value="kerala">kerala</option>
+                            </select>
+                            <br><br>
+                            <label for="travelDate">Date of Travel:</label>
+                            <input type="date" id="travelDate" name="travelDate" required>
+                            <br><br>
+                
+                            <label for="Arrival">Arrival:</label>
+                            <select id="Arrival" name="Arrival">
+                                <option value="">Select a city</option>
+                                <option value="New York">New York</option>
+                                <option value="Los Angeles">Los Angeles</option>
+                                <option value="Chicago">Chicago</option>
+                                <option value="Houston">Houston</option>
+                                <option value="Miami">Miami</option>
+                            </select>
+                            <br><br>
+                
+                            <label for="travelDate">Date of Travel:</label>
+                            <input type="date" id="travelDate" name="travelDate" required>
+                            <br><br>
+                
+                            <label for="numPassengers">Number of Passengers:</label>
+                            <input type="number" id="numPassengers" name="numPassengers" min="1" max="10">
+                            <br><br>
+                
+                            <button type="submit">Search Buses</button>
+
+                            
+                    </form>
+                </div>
+        </header>
+    </body>
+</html>
